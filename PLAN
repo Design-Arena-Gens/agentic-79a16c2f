@@ -1,0 +1,7 @@
+1. Interpret requirements, define feature scope, and decide tech stack.
+2. Scaffold Next.js app and configure dependencies, styling, and project structure.
+3. Implement backend: audio analysis, GPT-like agent logic, endpoints integrating music data.
+4. Create frontend UI: upload/listen flow, dance lesson agent with interactive feedback.
+5. Add state management, hooks, components for chat/instructions and music playback.
+6. Implement testing or linting steps, run checks to ensure build readiness.
+7. Prepare deployment configuration, run local build, deploy to Vercel, and verify.

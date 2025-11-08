@@ -1,0 +1,49 @@
+:root {
+  --background: radial-gradient(circle at 20% 20%, #1c2240, #050712 65%);
+  --background-solid: #050712;
+  --foreground-primary: #f3f4ff;
+  --foreground-soft: #aab1d9;
+  --accent: #ff76c9;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--foreground-primary);
+  background: var(--background);
+  font-family: "Inter", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 80% 20%, rgba(255, 118, 201, 0.18), transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(37, 70, 252, 0.2), transparent 48%);
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: -1;
+}
+
+html {
+  color-scheme: dark;
+}
